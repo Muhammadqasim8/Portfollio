@@ -1,0 +1,76 @@
+/* Base button styles */
+.px-btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+    position: relative;
+}
+
+/* Button colors and shadows */
+.px-btn-theme {
+    --btn-bg: rgb(234 88 12);
+    --btn-shadow: 6px 6px 0 -1px;
+    --btn-shadow-color: #0f172a;
+    background-color: var(--btn-bg);
+    box-shadow: var(--btn-shadow) var(--btn-shadow-color);
+    color: #fff;
+}
+
+.px-btn-dark {
+    --btn-bg: rgb(15 23 42);
+    --btn-shadow: 6px 6px 0 -1px;
+    --btn-shadow-color: #ea580c;
+    background-color: var(--btn-bg);
+    box-shadow: var(--btn-shadow) var(--btn-shadow-color);
+    color: #fff;
+}
+
+/* Portfolio button specific styles */
+.px-btn-portfolio {
+    --btn-bg: rgb(15 23 42);
+    --btn-shadow: 6px 6px 0 -1px;
+    --btn-shadow-color: #ea580c;
+    background-color: var(--btn-bg);
+    box-shadow: var(--btn-shadow) var(--btn-shadow-color);
+    color: #fff;
+}
+
+/* Hover effect for Portfolio button */
+.px-btn-portfolio:hover {
+    --btn-bg: rgb(234 88 12);
+    --btn-shadow-color: #0f172a;
+    background-color: var(--btn-bg);
+    box-shadow: var(--btn-shadow) var(--btn-shadow-color);
+}
+
+/* Hover effect for Contact Me button (to ensure consistency) */
+.px-btn-theme:hover {
+    --btn-bg: rgb(15 23 42);
+    --btn-shadow-color: #ea580c;
+    background-color: var(--btn-bg);
+    box-shadow: var(--btn-shadow) var(--btn-shadow-color);
+}
+
+/* Contact button specific styles */
+.px-btn-contact {
+    --btn-bg: #ca8a04;
+    --btn-shadow: 6px 6px 0 -1px;
+    --btn-shadow-color: #ca8a04;
+    background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+    box-shadow: var(--btn-shadow) var(--btn-shadow-color);
+    color: black;
+}
+
+/* Hover effect for Contact button */
+.px-btn-contact:hover {
+    --btn-bg: #ea580c;
+    --btn-shadow-color: #ca8a04;
+    background-color: var(--btn-bg);
+    box-shadow: var(--btn-shadow) var(--btn-shadow-color);
+    color: white;
+}

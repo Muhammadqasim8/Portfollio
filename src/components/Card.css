@@ -1,0 +1,30 @@
+.feature-box-02 {
+    --tw-border-opacity: 1;
+    --tw-shadow: 0 0 0 0;
+    --tw-shadow-colored: 0 0 0 0 var(--tw-shadow-color);
+    --tw-shadow-color: #0f172a;
+    --tw-shadow: var(--tw-shadow-colored);
+    align-items: center;
+    border-color: rgb(15 23 42 / var(--tw-border-opacity));
+    border-width: 2px;
+    display: flex;
+    padding: 15px;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.4,0,1,1);
+}
+.feature-box-02, .feature-box-02:hover {
+    box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
+}
+
+.fly-container {
+    
+    
+    background-image:  
+                      url('../assets/bgeffect.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: auto;
+}
+
