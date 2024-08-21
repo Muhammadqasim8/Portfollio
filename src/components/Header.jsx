@@ -18,7 +18,7 @@ const Header = () => {
       };
   }, []);
   return (
-    <div className={`${scrollPosition>160 ? "bg-white" : "bg-transparent"} fixed w-full`}>
+    <div className={`${scrollPosition>60 ? "bg-white" : "bg-transparent"} fixed z-[12] w-full `}>
         <div className='container mx-auto flex items-center justify-between  relative py-5 lg:py-3'>
             <div>
                 <a href="3"><img src={Images.logo} alt="logo" /></a>
