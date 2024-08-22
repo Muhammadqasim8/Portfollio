@@ -11,7 +11,7 @@ const GetInTouch = () => {
             <form  className=" p-4">
       <h2 className="text-3xl font-bold mb-4">Get in touch</h2>
       <p className="text-gray-600 text-base mb-6">Our friendly team would love to hear from you.</p>
-        <div className='grid grid-cols-2 gap-4'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
         <div className="mb-4">
         <label htmlFor="name" className="block text-gray-700 text-sm font-normal mb-2">
           First name
