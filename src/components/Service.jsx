@@ -4,6 +4,10 @@ import { Images } from "../utils/images";
 import './Card.css';
 
 const Services = () => {
+
+
+
+
   
   const cardData = [
     {
@@ -46,14 +50,14 @@ const Services = () => {
   ];
 
   return (
-    <div className="fly-container">
-      <div className="container mx-auto flex flex-col justify-center items-center pt-28 pb-24 gap-4">
-        <div className="lg:col-span-6 text-center text-5xl pb-16 px-4 font-bold uppercase mx-auto">
+    <div  id="service" className="fly-container">
+      <div className="container mx-auto flex flex-col justify-center items-center py-16 lg:py-28  gap-4">
+        <div className="lg:col-span-6 text-center  text-4xl  lg:text-5xl pb-10 px-4 font-bold uppercase mx-auto">
           <h3>
-            <span>My Services</span>
+            <span>My Service</span>
           </h3>
         </div>
-        <div className="grid lg:grid-cols-2  gap-4">
+        <div className="grid md:grid-cols-2 px-4 gap-4">
           {cardData.map((card, index) => (
             <Cards
               key={index}

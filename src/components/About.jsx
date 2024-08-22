@@ -5,11 +5,11 @@ import "./Button.css";
 
 const About = () => {
   return (
-    <div className="container mx-auto  grid lg:grid-cols-2 pt-24 px-8 pb-24 ">
-      <div>
+    <div className="container mx-auto  grid lg:grid-cols-2 py-14 sm:py-16 lg:py-24 px-8  ">
+      <div className="flex justify-center">
         <img src={Images.aboutme} alt="image" />
       </div>
-      <div className="flex flex-col pl-4 pt-16 ">
+      <div className="flex flex-col sm:pl-4 pt-16 ">
         <h3 className="font-[600] text-[26px] md:text-[40px] leading-[1.2] text-black mb-[25px]">
           I'm a Freelancer Front-end Developer with over 3 years of experience.
         </h3>
@@ -31,7 +31,8 @@ const About = () => {
         </div>
         <div className="pt-6">
             <a className="px-btn px-btn-theme mr-4">Contact Me</a>
-            <a className="px-btn px-btn-portfolio">Portfolio</a>
+            
+            <a className="px-btn px-btn-portfolio mt-4 ">Portfolio</a>
         </div>
       </div>
     </div>

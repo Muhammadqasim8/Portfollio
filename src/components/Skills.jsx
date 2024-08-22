@@ -13,12 +13,12 @@ const cardData = [
 
 const Skills = () => {
   return (
-    <div className="container mx-auto grid lg:grid-cols-2 pt-24 px-8">
+    <div className="container mx-auto grid md:grid-cols-2   py-4 sm:py-18 px-3 sm:px-8">
       <div className="flex flex-col pl-4 pt-16">
-        <h3 className="font-bold uppercase text-[26px] md:text-[50px] leading-[1.2] text-[#0F172A] pb-16">
+        <h3 className="font-bold uppercase text-3xl md:text-4xl lg:text-5xl leading-[1.2] text-[#0F172A] pb-8">
           My Skills
         </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 pb-3 gap-4">
+        <div className="grid grid-cols-2 pb-3 gap-4">
           {cardData.map((card, index) => (
             <SkillCard
               key={index}
